@@ -26,7 +26,7 @@ passenger_count = st.text_input('Passenger Count', value="2")
 
 
 #calling the API
-apiurl = 'http://localhost:8765/predict?'
+apiurl = 'https://taxifare.lewagon.ai//predict?'
 calling = f'{apiurl}pickup_datetime={pickup_date}%20{pickup_time}&pickup_longitude={pickup_longitude}&pickup_latitude={pickup_latitude}&dropoff_longitude={dropoff_longitude}&dropoff_latitude={dropoff_latitude}&passenger_count={passenger_count}'
 
 def call_api(params):

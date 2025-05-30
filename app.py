@@ -15,7 +15,7 @@ label = "change me.."
 pickup_date = st.text_input('Pickup date', value="2014-07-06")
 pickup_time = st.text_input('Pickup time', value="18:00")
 
-pickup_longitude = st.text_input('Pickup Longitude', value="73.950655")
+pickup_longitude = st.text_input('Pickup Longitude', value="-73.950655")
 pickup_latitude = st.text_input('Pickup Latitude', value="40.783282")
 
 dropoff_longitude = st.text_input('Dropoff Longitude', value="-73.984365")
